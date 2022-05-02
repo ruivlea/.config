@@ -1,6 +1,6 @@
 # terminal emulator
 super + Return
-	lxterminal
+	qterminal
 
 # program launcher
 super + grave
