@@ -71,41 +71,41 @@
   <item label="Reconf Openbox" icon="/home/ruivlea/.icons/Nordzy/apps/scalable/reload.svg">
     <action name="Reconfigure" />
   </item>
-  <item label="Empty Trash" icon="/home/ruivlea/.icons/actions/22x22/emptytrash.png">
+  <item label="Empty Trash" icon="/home/ruivlea/.icons/actions/22/emptytrash.png">
     <action name="Execute">
       <command>gio trash --empty</command>
 	  <prompt>Are you sure to empty trash?</prompt>
     </action>
   </item>
   <separator />
-  <item label="Lock Screen" icon="/home/ruivlea/.icons/actions/22x22/system-lock-screen.png">
+  <item label="Lock Screen" icon="/home/ruivlea/.icons/actions/22/system-lock-screen.png">
     <action name="Execute">
       <command>i3lock -c 000000 && xset dpms force off</command>
 	  <prompt>Are you sure to lock screen?</prompt>
     </action>
   </item>
   
-  <item label="Log Out" icon="/home/ruivlea/.icons/actions/22x22/system-log-out.png">
+  <item label="Log Out" icon="/home/ruivlea/.icons/actions/22/system-log-out.png">
     <action name="Exit">
       <prompt>yes</prompt>
     </action>
   </item>
   
-  <item label="Sleep" icon="/home/ruivlea/.icons/actions/22x22/system-suspend.png">
+  <item label="Sleep" icon="/home/ruivlea/.icons/actions/22/system-suspend.png">
     <action name="Execute">
       <command>i3lock -c 000000 && sudo s2ram --force</command>
 	  <prompt>Are you sure to sleep?</prompt>
     </action>
   </item>
   
-  <item label="Reboot" icon="/home/ruivlea/.icons/actions/22x22/system-reboot.png">
+  <item label="Reboot" icon="/home/ruivlea/.icons/actions/22/system-reboot.png">
     <action name="Execute">
       <command>sudo reboot</command>
 	  <prompt>Are you sure to reboot?</prompt>
     </action>
   </item>
   
-  <item label="Poweroff" icon="/home/ruivlea/.icons/actions/22x22/system-shutdown.png">
+  <item label="Poweroff" icon="/home/ruivlea/.icons/actions/22/system-shutdown.png">
     <action name="Execute">
       <command>sudo poweroff</command>
 	  <prompt>Are you sure to poweroff?</prompt>
