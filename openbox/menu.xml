@@ -3,7 +3,7 @@
 <menu id="root-menu" label="Openbox 3">
 	<item label="Terminal" icon="/home/ruivlea/.icons/Nordzy-dark/apps/scalable/utilities-terminal.svg">
     <action name="Execute">
-      <command>lxterminal</command>
+      <command>qterminal</command>
     </action>
   </item>
   
@@ -27,7 +27,7 @@
   
   <item label="File Manager" icon="/home/ruivlea/.icons/Nordzy-dark/apps/scalable/system-file-manager.svg">
     <action name="Execute">
-      <command>pcmanfm-qt</command>
+      <command>pcmanfm-qt-qt</command>
     </action>
   </item>
   
@@ -57,7 +57,7 @@
   
   <item label="Text Editor" icon="/home/ruivlea/.icons/Nordzy-dark/apps/scalable/accessories-text-editor.svg">
     <action name="Execute">
-      <command>lxterminal -e nvim</command>
+      <command>qterminal -e nvim</command>
     </action>
   </item>
   
