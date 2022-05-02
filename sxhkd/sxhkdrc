@@ -1,0 +1,36 @@
+# terminal emulator
+super + Return
+	lxterminal
+
+# program launcher
+super + grave
+	dmenu_run -nb '#3b4252' -nf '#ffffff' -sb '#4c566a' -sf '#ffffff'
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# volume
+super + button4
+    pactl set-sink-volume 0 +10%
+
+super + button5
+    pactl set-sink-volume 0 -10%
+
+# brightness
+XF86MonBrightnessDown
+	light -U 10
+
+XF86MonBrightnessUp
+	light -A 10
+
+XF86ScreenSaver
+	xset dpms force off
+
+# sleep
+XF86Sleep
+	i3lock -c 000000 && sudo s2ram --force
+
+# switch to albion mode
+super + F1
+	~/scripts/jwmhide; pkill sxhkd; sxhkd -c ~/.config/sxhkd/sxhkdrc-albion

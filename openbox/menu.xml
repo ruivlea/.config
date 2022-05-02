@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+<menu id="root-menu" label="Openbox 3">
+	<item label="Terminal" icon="/home/ruivlea/.icons/Nordzy-dark/apps/scalable/utilities-terminal.svg">
+    <action name="Execute">
+      <command>lxterminal</command>
+    </action>
+  </item>
+  
+  <item label="Firefox rui" icon="/usr/share/icons/hicolor/22x22/apps/firefox.png">
+    <action name="Execute">
+      <command>firefox -P ruivlea</command>
+    </action>
+  </item>
+  
+  <item label="Firefox alt" icon="/home/ruivlea/.icons/Nordzy/apps/scalable/firefox-alt.svg">
+    <action name="Execute">
+      <command>firefox -P alt</command>
+    </action>
+  </item>
+  
+  <item label="Albion Online" icon="/home/ruivlea/.icons/apps/22/albion-online.png">
+    <action name="Execute">
+      <command>__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia ~/albiononline/Albion-Online</command>
+    </action>
+  </item>
+  
+  <item label="File Manager" icon="/home/ruivlea/.icons/Nordzy-dark/apps/scalable/system-file-manager.svg">
+    <action name="Execute">
+      <command>pcmanfm-qt</command>
+    </action>
+  </item>
+  
+  <item label="Inkscape" icon="/usr/share/icons/hicolor/22x22/apps/org.inkscape.Inkscape.png">
+    <action name="Execute">
+      <command>inkscape</command>
+    </action>
+  </item>
+  
+  <item label="Spreadsheet" icon="/usr/share/icons/hicolor/22x22/apps/libreoffice-calc.png">
+    <action name="Execute">
+      <command>localc</command>
+    </action>
+  </item>
+  
+  <item label="Word Processor" icon="/usr/share/icons/hicolor/22x22/apps/libreoffice-writer.png">
+    <action name="Execute">
+      <command>lowriter</command>
+    </action>
+  </item>
+  
+  <item label="Presentation" icon="/usr/share/icons/hicolor/22x22/apps/libreoffice-impress.png">
+    <action name="Execute">
+      <command>loimpress</command>
+    </action>
+  </item>
+  
+  <item label="Text Editor" icon="/home/ruivlea/.icons/Nordzy-dark/apps/scalable/accessories-text-editor.svg">
+    <action name="Execute">
+      <command>lxterminal -e nvim</command>
+    </action>
+  </item>
+  
+  <item label="Handbrake" icon="/home/ruivlea/.icons/apps/22/handbrake.png">
+    <action name="Execute">
+      <command>ghb</command>
+    </action>
+  </item>
+  
+  <separator />
+  <item label="Reconf Openbox" icon="/home/ruivlea/.icons/Nordzy/apps/scalable/reload.svg">
+    <action name="Reconfigure" />
+  </item>
+  <item label="Empty Trash" icon="/home/ruivlea/.icons/actions/22x22/emptytrash.png">
+    <action name="Execute">
+      <command>gio trash --empty</command>
+	  <prompt>Are you sure to empty trash?</prompt>
+    </action>
+  </item>
+  <separator />
+  <item label="Lock Screen" icon="/home/ruivlea/.icons/actions/22x22/system-lock-screen.png">
+    <action name="Execute">
+      <command>i3lock -c 000000 && xset dpms force off</command>
+	  <prompt>Are you sure to lock screen?</prompt>
+    </action>
+  </item>
+  
+  <item label="Log Out" icon="/home/ruivlea/.icons/actions/22x22/system-log-out.png">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+  
+  <item label="Sleep" icon="/home/ruivlea/.icons/actions/22x22/system-suspend.png">
+    <action name="Execute">
+      <command>i3lock -c 000000 && sudo s2ram --force</command>
+	  <prompt>Are you sure to sleep?</prompt>
+    </action>
+  </item>
+  
+  <item label="Reboot" icon="/home/ruivlea/.icons/actions/22x22/system-reboot.png">
+    <action name="Execute">
+      <command>sudo reboot</command>
+	  <prompt>Are you sure to reboot?</prompt>
+    </action>
+  </item>
+  
+  <item label="Poweroff" icon="/home/ruivlea/.icons/actions/22x22/system-shutdown.png">
+    <action name="Execute">
+      <command>sudo poweroff</command>
+	  <prompt>Are you sure to poweroff?</prompt>
+    </action>
+  </item>
+</menu>
+</openbox_menu>

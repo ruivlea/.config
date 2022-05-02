@@ -1,0 +1,11 @@
+[Added Associations]
+application/x-shellscript=nvim.desktop;
+text/x-install=nvim.desktop;
+application/xml=nvim.desktop;
+text/plain=nvim.desktop;
+
+[Default Applications]
+application/x-shellscript=nvim.desktop
+text/x-install=nvim.desktop
+application/xml=nvim.desktop
+text/plain=nvim.desktop
