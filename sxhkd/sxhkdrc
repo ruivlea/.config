@@ -4,7 +4,7 @@ super + Return
 
 # program launcher
 super + grave
-	dmenu_run -nb '#3b4252' -nf '#ffffff' -sb '#4c566a' -sf '#ffffff'
+	~/scripts/dmenu-dark
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -19,17 +19,17 @@ super + button5
 
 # brightness
 XF86MonBrightnessDown
-	light -U 10
+	brightnessctl set 10%-
 
 XF86MonBrightnessUp
-	light -A 10
+	brightnessctl set +10%
 
 XF86ScreenSaver
 	xset dpms force off
 
 # sleep
 XF86Sleep
-	i3lock -c 000000 && sudo s2ram --force
+	prompt "Are you sure to sleep?" "exec suspend"
 
 # switch to albion mode
 super + F1
