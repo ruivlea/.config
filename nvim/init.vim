@@ -12,5 +12,5 @@ let g:netrw_liststyle = 3
 let g:netrw_banner = 0
 set tabstop=4
 set shiftwidth=4
-colorscheme nord
+"colorscheme nord
 set title
