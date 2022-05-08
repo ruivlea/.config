@@ -15,14 +15,14 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
+~/scripts/tint2nohide &
 pcmanfm-qt --desktop &
 sxhkd &
 picom &
 xclip &
-~/scripts/tint2nohide &
 tint2 &
 tint2 -c ~/.config/tint2/clock.tint2rc &
-megasync &
+#megasync &
 volumeicon &
 xautolock -detectsleep -time 30 -locker "i3lock -c 000000 && xset dpms force off" &
 pulseaudio --start &

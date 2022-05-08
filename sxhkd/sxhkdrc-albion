@@ -33,7 +33,7 @@ XF86Sleep
 
 # switch to normal mode
 super + F1
-	~/scripts/jwmnohide; pkill sxhkd; sxhkd
+	~/scripts/tint2nohide; pkill sxhkd; sxhkd
 
 # albion
 # inspect

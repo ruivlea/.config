@@ -33,4 +33,4 @@ XF86Sleep
 
 # switch to albion mode
 super + F1
-	~/scripts/jwmhide; pkill sxhkd; sxhkd -c ~/.config/sxhkd/sxhkdrc-albion
+	~/scripts/tint2hide; pkill sxhkd; sxhkd -c ~/.config/sxhkd/sxhkdrc-albion

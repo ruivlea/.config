@@ -27,7 +27,7 @@
   
   <item label="File Manager" icon="/home/ruivlea/.icons/Nordzy-dark/apps/scalable/system-file-manager.svg">
     <action name="Execute">
-      <command>pcmanfm-qt-qt</command>
+      <command>pcmanfm-qt</command>
     </action>
   </item>
   
@@ -85,29 +85,29 @@
     </action>
   </item>
   
-  <item label="Log Out" icon="/home/ruivlea/.icons/actions/22/system-log-out.png">
+  <item label="Exit openbox" icon="/home/ruivlea/.icons/actions/22/system-log-out.png">
     <action name="Exit">
-      <prompt>yes</prompt>
+		<prompt>yes</prompt>
     </action>
   </item>
   
   <item label="Sleep" icon="/home/ruivlea/.icons/actions/22/system-suspend.png">
     <action name="Execute">
-      <command>i3lock -c 000000 && sudo s2ram --force</command>
+		<command>suspend</command>
 	  <prompt>Are you sure to sleep?</prompt>
     </action>
   </item>
   
   <item label="Reboot" icon="/home/ruivlea/.icons/actions/22/system-reboot.png">
     <action name="Execute">
-      <command>sudo reboot</command>
+      <command>loginctl reboot</command>
 	  <prompt>Are you sure to reboot?</prompt>
     </action>
   </item>
   
   <item label="Poweroff" icon="/home/ruivlea/.icons/actions/22/system-shutdown.png">
     <action name="Execute">
-      <command>sudo poweroff</command>
+      <command>loginctl poweroff</command>
 	  <prompt>Are you sure to poweroff?</prompt>
     </action>
   </item>
